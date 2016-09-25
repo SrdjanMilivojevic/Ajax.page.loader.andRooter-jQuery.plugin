@@ -95,6 +95,7 @@ function Application (settings) {
 function aplrNavigate (settings) {
     // Make the application object.
     var app = new Application(settings);
+    console.log(app);
     // Render the view, once, to the initial view identifier.
     app.render();
     // Render the view whenever the view identifier value changes.

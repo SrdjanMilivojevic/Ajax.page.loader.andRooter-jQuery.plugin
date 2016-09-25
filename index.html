@@ -26,17 +26,18 @@
             <!-- Content goes here! -->
         </div>
 
-            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-            <script src="res/js/jquery-1.11.3.min.js"></script>
-            <!-- Latest compiled and minified JavaScript -->
-            <script src="res/plugins/bootstrap/js/bootstrap.min.js"></script>
-            <script src="ajaxPageLoaderAndRooter/lib.js">
-                aplrNavigate({
-                    contentSelector: '#content', // Element in wich content will be placed.
-                    navLinkSelector: '#navbar a', // For adding css class "active".
-                    pathToIncludes: 'app/views', //'folder/where/view_partials/are_stored',
-                });
-            </script>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="res/js/jquery-1.11.3.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="res/plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script src="res/plugins/ajaxPageLoaderAndRooter/lib.js"></script>
+        <script>
+            aplrNavigate({
+                contentSelector: '#content', // Element in wich content will be placed.
+                navLinkSelector: '#navbar a', // For adding css class "active".
+                pathToIncludes: 'partials', //'folder/where/view_partials/are_stored',
+            });
+        </script>
     </body>
 </html>
     <!-- App by Srdjan Milivojevic srdjan.milivojevic78@yahoo.com  -->
