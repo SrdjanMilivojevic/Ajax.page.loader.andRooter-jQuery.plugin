@@ -17,10 +17,9 @@
 This is how it works:<br><br>
 Set navigation links as fragment identifiers (#about).<br>
 This will search for file in folder of your choice (pathToIncludes - property)<br>
-named about.html<br>
-#example:
+(named about.html)<br>
+###example:
 ```html
-
 <!-- Navigation links -->
 <div id="navbar">
     <a href="#home">Home</a> <!-- Loads home.html etc -->
