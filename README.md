@@ -1,9 +1,8 @@
 # Ajax.page.loader.andRooter-jQuery.plugin
-<hr>
 
 ##Instalation
 ```html
-<script src="res/js/jquery-1.11.3.min.js"></script>
+<script src="src= http //ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
 <script src="path/to/ajaxPageLoaderAndRooter/lib.js"></script>
 <script>
