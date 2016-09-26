@@ -45,6 +45,7 @@ function Application (settings) {
      *
      * @method private
      * @param  string view [name of the view file]
+     * @param  string pathToIncludes
      * @param  closure callback
      */
     var _getContent = function (view, pathToIncludes, callback) {
