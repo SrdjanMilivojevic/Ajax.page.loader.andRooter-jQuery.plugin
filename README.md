@@ -1,8 +1,8 @@
-# Php_mvc_srdjan - feather light PHP framework
+# Ajax.page.loader.andRooter-jQuery.plugin
 <hr>
 
 ##Instalation
-```
+```html
 <script src="res/js/jquery-1.11.3.min.js"></script>
 
 <script src="path/to/ajaxPageLoaderAndRooter/lib.js"></script>
