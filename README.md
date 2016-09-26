@@ -15,8 +15,8 @@
 ```
 ##Usage:
 This is how it works:<br>
-Set navigation links as fragment identifiers '#about'<br>
-This will search for file in folder of your choice (pathToIncludes - propery)<br>
+Set navigation links as fragment identifiers (#about)<br>
+This will search for file in folder of your choice (pathToIncludes - property)<br>
 named about.html<br>
 #example
 ```html
